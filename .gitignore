@@ -1,0 +1,27 @@
+# macOS system files
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary / backup files
+*.tmp
+*.swp
+*.swo
+*~
+
+# Node.js dependencies (if you ever use npm)
+node_modules/
+
+# Environment variables (keep secrets safe, like API keys)
+.env
+*.env
+
+# OS-generated files
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# VS Code settings (local only, not for GitHub)
+.vscode/
+.history/
