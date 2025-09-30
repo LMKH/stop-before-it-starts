@@ -28,7 +28,6 @@ font- size 2 rem*/
     text-align: center;
     margin: 2rem 0;
     font-size: 2rem;
-    font-weight: bol;
 }
 
 .article {
@@ -82,6 +81,26 @@ font- size 2 rem*/
     max-width: 100%;
     border-radius: 8px;
     display: block;
+}
+
+/* this is where how to take better care article is */
+/* hero part */
+.hero {
+    background-image: url("/stop-before-it-starts/assets/images/boat-1992137_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    /* here is the writing on top of the image */
+    height: 400px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* for a soft blue background behind the affirmations */
+.affirmations {
+    background-color: #e0f7fa;
 }
 
 /* Responsive: stack on smaller screens */

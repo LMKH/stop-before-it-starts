@@ -49,8 +49,140 @@
         </div>
     </nav>
 
-    <!-- heading-->
-    <h1>test</h1>
+    <!-- heading hero/jumbotron-->
+    <section class="hero">
+        <h1>How To Take Better Care of Your Mental Health</h1>
+        <p><em>From anxiety to stress - discover how to care for your mental health today.</em></p>
+    </section>
+
+    <!--for the information cards-->
+    <!-- bootstrap containers -->
+    <!--  container - keeps the content centered with some padding on sides
+      my-5 adds vertical spacing (top and bottom margin)-->
+    <section class="container my-5">
+        <!--subheading for the page-->
+        <!-- mb-4 margin below the heading. text -center, centers the text-->
+        <h2 class="mb-4 text-center">Taking care of your mental health is just as important as looking after your
+            physical wellbeing. Stress,
+            anxiety, and low mood are common experiences, but small daily actions can make a big difference in how you
+            feel. Here are some practical tips to help you protect and strengthen your mental health.
+        </h2>
+
+        <!--cards-->
+        <!-- starts a row for the cards - bootstrap uses a grid system - rows contain columns -->
+        <div class="row">
+            <!-- div class="col-md-3 mb-3" column inside the row. adds space between cards for readability -->
+            <div class="col-md-3 mb-3">
+                <!-- h-100makes all cards the same height in the row -->
+                <div class="card h-100">
+                    <!-- card - creates a card component with borders and padding -->
+                    <!-- card-body area inside the card for content -->
+                    <div class="card-body">
+                        <!-- card-title - the cards title -->
+                        <!-- card-text - the text -->
+                        <h5 class="card-title">Tip 1: Prioritise Rest and Sleep</h5>
+                        <p class="card-text">A regular sleep routine gives your mind time to recover and recharge. Aim
+                            for 7 to 9 hours a
+                            night,
+                            and
+                            try
+                            to keep a consistent bedtime and wake-up time.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <!-- h-100makes all cards the same height in the row -->
+                <div class="card h-100">
+                    <!-- card - creates a card component with borders and padding -->
+                    <!-- card-body area inside the card for content -->
+                    <div class="card-body">
+                        <!-- card-title - the cards title -->
+                        <!-- card-text - the text -->
+                        <h5 class="card-title">Tip 2: Connect With Others</h5>
+                        <p class="card-text">Talking about how you are feeling with a trusted friend or loved one
+                            can ease feelings of isolation.
+                            Even
+                            a short chat can help you feel more supported.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <!-- h-100makes all cards the same height in the row -->
+                <div class="card h-100">
+                    <!-- card - creates a card component with borders and padding -->
+                    <!-- card-body area inside the card for content -->
+                    <div class="card-body">
+                        <!-- card-title - the cards title -->
+                        <!-- card-text - the text -->
+                        <h5 class="card-title">Tip 3: Seek Professional Support</h5>
+                        <p class="card-text">If stress or anxiety becomes overwhelming, reaching out to a mental health
+                            professional can provide
+                            guidance, tools, and reassurance.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <!-- h-100makes all cards the same height in the row -->
+                <div class="card h-100">
+                    <!-- card - creates a card component with borders and padding -->
+                    <!-- card-body area inside the card for content -->
+                    <div class="card-body">
+                        <!-- card-title - the cards title -->
+                        <!-- card-text - the text -->
+                        <h5 class="card-title">Tip 4: Practice Mindfulness</h5>
+                        <p class="card-text">Taking time to pause and focus on the present moment can help calm anxious
+                            thoughts. Try breathing
+                            exercises, journaling, or meditation apps for just a few minutes a day.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--resource area-->
+    <!-- my 5 centers the section and adds verical spacing -->
+    <section class="container my-5">
+        <!-- text center create horizontal layout and centers content -->
+        <h2 class="mb-4 text-center">Important Resources</h2>
+
+        <!--row for the resource buttons. keeps the buttons and text in the center of all screen sizes-->
+        <div class="row justify-content-center text-center">
+            <!--col-auto. columns only as wide as its conent. mb-2 adds bottom spacing between stacked buttons on small screens -->
+            <div class="col-auto mb-2">
+                <!-- class="btn btn-light btn-sm - bootstrap button style, soft light colour, smaller, less overpowering-->
+                <a href="https://www.nhs.uk/mental-health/" target="_blank" class="btn btn-light btn-sm">NHS Mental
+                    Health Support</a>
+            </div>
+        </div>
+
+        <div class="row justify-content-center text-center">
+            <div class="col-auto mb-2">
+                <a href="https://www.mind.org.uk/" target="_blank" class="btn btn-light btn-sm">MIND</a>
+            </div>
+        </div>
+
+        <div class="row justify-content-center text-center">
+            <div class="col-auto mb-2">
+                <a href="https://giveusashout.org/" target="_blank" class="btn btn-light btn-sm">Shout</a>
+            </div>
+        </div>
+    </section>
+
+    <!--positive affirmations-->
+    <!-- section affirmations - gives the section a name, to be styled in css -->
+    <!-- py 5 bootstrap spacing utility padding top & bottom. text centered -->
+    <section class="affirmations py-5 text-center">
+        <!-- container keeps content aligned and padded -->
+        <div class="container">
+            <!-- fs-4 bootstrap font size utility. -->
+            <!-- text primary, success and info, bootstrap colour utilities for soft/uplifting colours -->
+            <h2 class="mb-4">Our Favourite Positive Affirmations</h2>
+            <p class="fs-4 text-primary">"You are much stronger than you think"</p>
+            <p class="fs-4 text-success">"Your feelings are valid"</p>
+            <p class="fs-4 text-info">"When the going gets tough, the tough get going"</p>
+
+        </div>
+    </section>
 
     <!-- Bootstrap JS Script-->
     <!--needed so the drop down navbar works-->
