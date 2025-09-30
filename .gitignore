@@ -10,10 +10,10 @@
 *.swo
 *~
 
-# Node.js dependencies (if you ever use npm)
+# Node.js dependencies
 node_modules/
 
-# Environment variables (keep secrets safe, like API keys)
+# Environment variables
 .env
 *.env
 
@@ -22,6 +22,6 @@ Thumbs.db
 ehthumbs.db
 Icon?
 
-# VS Code settings (local only, not for GitHub)
+# VS Code settings
 .vscode/
 .history/
