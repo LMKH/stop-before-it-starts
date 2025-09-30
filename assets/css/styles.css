@@ -1,3 +1,4 @@
+/*fonts*/
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -27,6 +28,7 @@ font- size 2 rem*/
     text-align: center;
     margin: 2rem 0;
     font-size: 2rem;
+    font-weight: bol;
 }
 
 .article {
@@ -39,6 +41,7 @@ font- size 2 rem*/
     /*this one is for space between the image and the text*/
     gap: 2rem;
 }
+
 .article-text {
     flex: 1;
 }
@@ -84,11 +87,18 @@ font- size 2 rem*/
 /* Responsive: stack on smaller screens */
 @media (max-width: 768px) {
     .article {
-        flex-direction: column-reverse;
+        /* stack vertically */
+        flex-direction: column;
         text-align: center;
     }
 
     .article-image {
-        margin-top: 1rem;
+        /* order: -1 makes the image appear first - smaller screens*/
+        order: -1;
+        margin-bottom: 1rem;
+    }
+    #article-text {
+        /* order: 0 makes the text come after the image - smaller screens */
+        order: 0;
     }
 }
