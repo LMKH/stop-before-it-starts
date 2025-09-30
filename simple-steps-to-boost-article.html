@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta tags for search engines -->
+    <meta name="description" content="Stop Before It Starts. Mental Health. Mental Health Support. Articles">
+    <meta name="keywords"
+        content="Stop Before It Starts, mental health, mental support, mental health support, information">
     <title>Stop Before It Starts</title>
 
     <!--css link-->
@@ -51,6 +55,36 @@
 
     <!-- heading-->
     <h1>test</h1>
+
+    <!-- footer goes here -->
+    <!-- bg-dark = dark background, text-light = light text, vertical padding -->
+    <footer class="bg-dark text-light py-4">
+        <!--  d-flex = makes it a flex container, flex column = stack items veritcally on small screens
+        flex-md-row = side by side on medium screens, justify content between = pushes left and right content to edges
+        align items start = aligns content at the top-->
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-start">
+            <!-- left side = company name + slogan 
+            margin bottom on small screens-->
+            <div class="mb-3 mb-md-0">
+                <h5>Stop Before It Starts</h5>
+                <p class="mb-0">We help stop mental health crises before they start</p>
+            </div>
+
+            <!-- right side of footer -->
+            <div>
+                <!-- list unstyled = removes bulletpoints, rest = stack vertically on small screens  -->
+                <ul class="list-unstyled d-flex flex-column flex-md-row mb-0">
+                    <!-- pacing between links (right margin on medium+, bottom margin on small). -->
+                    <!-- text-light text-decoration-none = keeps links bright and no underline -->
+                    <li class="me-md-3 mb-2 mb-md-0"><a href="#" class="text-light text-decoration-none">Contact Us</a>
+                    <li class="me-md-3 mb-2 mb-md-0"><a href="#" class="text-light text-decoration-none">Resources</a>
+                    <li class="me-md-3 mb-2 mb-md-0"><a href="#" class="text-light text-decoration-none">Support</a>
+                    <li class="me-md-3 mb-2 mb-md-0"><a href="#" class="text-light text-decoration-none">Careers</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
     <!-- Bootstrap JS Script-->
     <!--needed so the drop down navbar works-->
