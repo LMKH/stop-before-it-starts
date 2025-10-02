@@ -35,3 +35,34 @@ The site demonstrates strong technical quality, with between **97% to 100% Light
 ![Validation Check](readme-assets/Validation-check.png)
 
 #### User Stories
+
+##### First Time Visitor Goals
+
+-   **As a first-time visitor**, I want to easily find helpful information on mental health support.
+-   **As a first-time visitor**, I want to quickly locate links to trusted mental health resources.
+-   **As a first-time visitor**, I want to read engaging articles on ways to improve my mental well-being.
+-   **As a first-time visitor**, I want to access practical tips on how to reduce stress.
+
+##### Returning Visitor Goals
+
+-   **As a returning visitor**, I want to see new and up-to-date articles on mental health and well-being.
+-   **As a returning visitor**, I want access to inspirational quotes or content that can support me in daily life.
+
+##### Frequent Visitor Goals
+
+-   **As a frequent visitor**, I want to quickly access my favourite or previously read articles so I can continue learning and benefiting from the content.
+
+### Deployment
+
+This site is being deployed using **GitHub Pages**. See below link.
+
+## [View Stop Before It Starts now on GitHub Pages](https://lmkh.github.io/stop-before-it-starts/)
+
+How I deployed this site was by:
+
+1. Logging in to GitHub
+2. Finding this project's repository.
+3. Clicking on the Settings link.
+4. Clicking on the Pages link - located in the left-hand navigation menu.
+5. In the source section, this is where I selected the root from the drop-down menu.
+6. Once this was saved, GitHub Pages deployed my site at the respective URL.
