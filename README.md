@@ -32,6 +32,6 @@ The site demonstrates strong technical quality, with between **97% to 100% Light
 
 ![Lighthouse Score](readme-assets/Lighthouse-index.png)
 ![Lighthouse Score](readme-assets/Lighthouse-how-to-take-better-care.png)
-![Validation Check](readme-assets/Validated-Code.png)
+![Validation Check](readme-assets/Validation-check.png)
 
 #### User Stories
